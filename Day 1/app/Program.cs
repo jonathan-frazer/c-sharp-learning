@@ -23,5 +23,3 @@ Console.WriteLine("Uppercase:" + sayHello.ToUpper()); //-> "HELLO WORLD!"
 
 string mainString = "Hello World!";
 Console.WriteLine("\nIgnore Case Search: " + mainString.Contains("hello", StringComparison.OrdinalIgnoreCase)); //true
-
-//Starts with and Ends with
