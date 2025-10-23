@@ -56,7 +56,7 @@ string friend2 = "Hayato";
 Console.WriteLine($"Hi, I'm Kaio. These are my friends {friend1} and {friend2}");
 ```
 
-# LESSON 4: Strings
+# LESSON 4-6: Strings
 
 \*strings are depicted in Double Quotes.
 \*strings in C# are immutable. This means that once a string object is created, its content cannot be changed.

@@ -1,4 +1,4 @@
-# LESSON 5-6: Numbers Integers and Math
+# LESSON 7-8: Numbers Integers and Math
 
 A signed 32-bit integer, ranging from -2,147,483,648 to 2,147,483,647. This is the most commonly used integer type in C#
 
