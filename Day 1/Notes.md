@@ -34,8 +34,11 @@ To create an "Console Application" within a new folder App
 # LESSON 2: Environment Setup
 
 \*They download the C# Dev Kit
+
 \*In the Dev kit there will be a `Solution Explorer` to give a logical view of the place
+
 \*They also showcase how the Debug Mode is run
+
 \*You can also do the following:-
 
 > Ctrl + F5 for run
@@ -46,6 +49,7 @@ To create an "Console Application" within a new folder App
 \*They provide a link for `dot.net`. Then scroll down to the learning portal,
 And you can learn about all the different frameworks and things you can do
 That has all the documentation and all that important stuff
+
 \*It has the spec and what words are allowed and not allowed
 
 \*Then they teach about basic strings
@@ -59,8 +63,11 @@ Console.WriteLine($"Hi, I'm Kaio. These are my friends {friend1} and {friend2}")
 # LESSON 4-6: Strings
 
 \*strings are depicted in Double Quotes.
+
 \*strings in C# are immutable. This means that once a string object is created, its content cannot be changed.
+
 \*strings in C# are objects. They are instances of the System.String class, which is a reference type.
+
 \*strings support concatenation with the + operator meaning you can also do
 
 ```

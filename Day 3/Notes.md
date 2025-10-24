@@ -34,6 +34,7 @@ Console.WriteLine(subscript);
 # LESSON 9: Ifs and Conditional Logic
 
 \* In C#, the if structure is a fundamental control flow statement used to execute a block of code conditionally based on the evaluation of a Boolean expression.
+
 \*You have to use brackets similar to Java for the Operator precedence
 
 \*Basic if Statement:
@@ -47,6 +48,7 @@ if (condition)
 ```
 
 \*condition: This is a Boolean expression that evaluates to either true or false.
+
 \*Code Block: The code enclosed within the curly braces {} is executed if condition is true. If condition is false, this block is skipped.
 
 \*if-else Statement:
@@ -64,6 +66,7 @@ else
 ```
 
 \*If condition is true, the code in the if block is executed.
+
 \*If condition is false, the code in the else block is executed.
 
 if-else if-else Statement:
@@ -85,6 +88,7 @@ else
 ```
 
 \*Conditions are evaluated in order. The first if or else if block whose condition evaluates to true is executed, and subsequent else if and else blocks are skipped.
+
 \*The else block at the end is optional and acts as a fallback if none of the preceding if or else if conditions are met.
 
 Nested if Statements:
@@ -111,7 +115,9 @@ else
 Key Points:
 
 \*The condition within an if statement must always be a Boolean expression.
+
 \*Curly braces {} are required for code blocks containing multiple statements. For a single statement, they are optional but recommended for clarity and consistency.
+
 \*Conditional operators like && (logical AND) and || (logical OR) can be used to combine multiple conditions within a single if statement.
 
 # LESSON 10-11: Loops
@@ -183,7 +189,7 @@ Hello World! The counter is 9
 */
 ```
 
-/\*C# Does support the postfix and prefix operators.
+\*C# Does support the postfix and prefix operators.
 
 ## Operator Precedence
 
@@ -192,16 +198,26 @@ Operator precedence in C# defines the order in which operators in an expression 
 ### General Precedence Rules:
 
 \*Parentheses: Expressions enclosed in parentheses () are evaluated first, regardless of the operators within them. This allows overriding default precedence.
+
 \*Unary Operators: Unary operators (like ++, --, +, -, !, ~) have higher precedence than most binary operators.
-\*Multiplicative Operators: Multiplication _, division /, and modulo % have higher precedence than additive operators.
+
+\*Multiplicative Operators: Multiplication \_, division /, and modulo % have higher precedence than additive operators.
+
 \*Additive Operators: Addition + and subtraction - have lower precedence than multiplicative operators.
+
 \*Shift Operators: Left shift &lt;&lt; and right shift &gt;&gt; have lower precedence than additive operators.
+
 \*Relational and Type Operators: Less than &lt;, less than or equal to &lt;=, greater than &gt;, greater than or equal to &gt;=, is, as, and typeof have lower precedence than shift operators.
+
 \*Equality Operators: Equal to == and not equal to != have lower precedence than relational operators.
+
 \*Bitwise Operators: Bitwise AND &, XOR ^, and OR | follow equality operators.
+
 \*Logical Operators: Logical AND && and logical OR || follow bitwise operators.
+
 \*Conditional (Ternary) Operator: The conditional operator ? : has lower precedence than logical operators.
-\*Assignment Operators: Assignment operators (=, +=, -=, _=, /=, etc.) have the lowest precedence.
+
+\*Assignment Operators: Assignment operators (=, +=, -=, \_=, /=, etc.) have the lowest precedence.
 
 ### Associativity:
 
